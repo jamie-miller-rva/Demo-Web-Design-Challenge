@@ -1,0 +1,293 @@
+/* jamie_style.css css file */
+
+/* positioning */
+
+/* box-model */
+
+/* text */
+
+/* visual */
+
+/* ################## Default Styling ############################*/
+body {
+    /* positioning */
+    position: relative;
+    
+    /* box-model */
+
+    /* text */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* visual */
+    background-color: lightgray;
+    }
+
+a {
+   /* positioning */
+
+    /* box-model */
+
+    /* text */
+    color: rgb(29, 184, 184);
+    font-weight: bold;
+
+    /* visual */ 
+}
+
+/* ################## Navbar ############################*/
+.navbar {
+    /* positioning */
+    margin: 10px 10px 10px 10px;  
+    
+    /* box-model */
+    padding: 10px 10px 10px 10px;
+    border: 3px solid rgb(29, 184, 184);
+
+    /* text */
+
+    /* visual */
+}
+
+.navbar-brand {
+    /* positioning */
+    margin: 0px 800px 0px 0px;
+
+    /* box-model */
+    padding: 0px 10px 0px 10px;
+
+    /* text */
+
+    /* visual */
+    background-color: rgb(29, 184, 184);
+}
+
+#navbar-logo {
+    /* positioning */
+    height: 50px;
+    width: 125px;
+
+    /* box-model */
+    padding: 10px 5px 10px 5px;
+    
+
+    /* text */
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+
+    /* visual */
+}
+
+a.nav-link{
+    color: rgb(29, 184, 184);
+}
+
+.nav-link:hover {
+    /* visual */
+    opacity: 0.7;
+
+}
+/* ################# Page Content ############################*/
+.project-container {
+    /* positioning */
+    height:  fit-content;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    /* box-model */
+    padding: 10px 10px 10px 10px;
+    /* text */    
+    /* visual */
+    /* background-color: rgb(29, 184, 184); */
+}
+
+.project-title {
+    /* positioning */
+    margin: 10px 10px 10px 10px;    
+    /* box-model */
+    /* text */
+    font-weight: bold;
+    color:rgb(29, 184, 184)
+    /* visual */
+
+}
+
+#project-figure {
+    /* positioning */
+    margin: 0px 10px 10px 10px;
+    /* box-model */
+    width: 300px;
+    height: 300px;
+    padding: 0px 10px 0px 10px;
+    /* text */
+    /* visual */
+    float: left;    
+  }
+
+.project-description {
+    /* positioning */
+    margin: 20px 10px 10px 10px;
+    /* box-model */
+    /* text */
+    font-size: medium;
+    font-weight: normal;
+    /* visual */
+}
+
+.left-box {
+    /* positioning */
+    height: 600px;
+    width: 650px;
+    margin: auto;
+    /* box-model */
+    border: 3px solid rgb(29, 184, 184);
+    /* text */
+    font-weight: bold;
+    font-size: medium;
+    /* visual */ 
+    background-color: aliceblue;
+}
+
+
+.right-box {
+    /* positioning */
+    height: 600px;
+    width: 550px;
+    margin:auto;
+    /* box-model */
+    border: 3px solid rgb(29, 184, 184);
+    padding: 10px 10px 10px 10px;
+    /* text */
+    font-weight: bold;
+    font-size: medium;
+    /* visual */ 
+    background-color: aliceblue;
+}
+
+/*################# comparison page ##########################*/
+.center-container {
+    /* positioning */
+    height: 600px;
+    width: 960px;
+    margin: 10px 100px 10px 100px;
+    /* box-model */
+    border: 3px solid rgb(29, 184, 184);
+    /* text */
+    font-weight: bold;
+    font-size: medium;
+    /* visual */ 
+    background-color: aliceblue;
+}
+
+.comparison-title {
+    /* positioning */
+    margin: 0px 10px 0px 10px;
+    /* box-model */
+    /* text */
+    font-weight: bold;
+    color: rgb(29, 184, 184);
+    /* visual */
+}
+
+.comparison-subtitle {
+    /* positioning */
+    margin: 10px 10px 0px 10px;
+    /* box-model */
+    /* text */
+    /* visual */
+}
+
+.comparison-card {
+    /* positioning */
+    height: 250px;
+    width: 400px;
+    margin: 0px 20px 15px 20px;
+
+    /* box-model */
+    padding: 0px 10px 10px 10px;
+
+    /* text */
+
+    /* visual */       
+}
+
+
+/* ################# Visualizations ######################### */
+.card {
+    /* positioning */
+    height: 220px;
+    width: 220px;
+    margin: 10px 10px 10px 10px;
+
+    /* box-model */
+    padding: 0px 10px 10px 10px;
+
+    /* text */
+
+    /* visual */
+}
+
+.card-title {
+    /* positioning */
+    /* box-model */
+    /* text */
+    font-size: small;
+    text-align: center;
+    /* visual */
+}
+
+.card-img {
+    /* positioning */ 
+    margin: 10px 10px 10px 10px;
+
+    /* box-model */
+    padding: 10px 10px 10px 10px;
+
+    /* text */
+
+    /* visual */
+}
+
+.card:hover {
+    /* visual */
+    opacity: 0.7;
+}
+
+/* Cloudiness */
+#cloudiness-figure {
+    /* positioning */
+
+    margin: 10px 10px 10px 50px;
+    /* box-model */
+    width: 500px;
+    height: 400px;
+    padding: 0px 10px 0px 10px;
+    /* text */
+    /* visual */
+   
+
+}
+
+
+/* #################### table ################################ */
+th {
+/* positioning */
+/* box-model */
+/* text */
+text-align: left;
+/* visual */    
+}
+
+/* ####################  Footer ##############################*/
+footer {
+    /* positioning */
+    margin: 0px 10px 0px 10px;      
+    /* box-model */
+    padding: 10px 10px 10px 10px;
+    border: 3px solid rgb(29, 184, 184);
+    /* text */
+    text-align: center;
+    color: rgb(29, 184, 184);
+    /* visual */
+    background-color: white
+}
